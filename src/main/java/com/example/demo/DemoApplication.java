@@ -17,4 +17,10 @@ public class DemoApplication {
 	String sayHello() {
 		return "Hello World!";
 	}
+
+	@RequestMapping("/morning")
+	String sayMorning() {
+		return "Good Morning World!";
+	}
+
 }
